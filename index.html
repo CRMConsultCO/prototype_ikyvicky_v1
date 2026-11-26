@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IKY VICKY — Tech House DJ / Producer</title>
+<meta name="description" content="IKY VICKY — tech house DJ and producer. Listen, shows, and booking.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Archivo+Black&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="tag-preview" aria-hidden="true">Preview build — pending final assets</div>
+
+<header class="hero" id="top">
+  <div class="hero-bg" aria-hidden="true">
+    <svg viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid slice" class="hero-art">
+      <defs>
+        <radialGradient id="glow1" cx="30%" cy="20%" r="60%">
+          <stop offset="0%" stop-color="#ff1f8f" stop-opacity="0.55"/>
+          <stop offset="100%" stop-color="#ff1f8f" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="glow2" cx="75%" cy="75%" r="55%">
+          <stop offset="0%" stop-color="#00e5ff" stop-opacity="0.45"/>
+          <stop offset="100%" stop-color="#00e5ff" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="55%" stop-color="#07060a" stop-opacity="0"/>
+          <stop offset="100%" stop-color="#07060a" stop-opacity="1"/>
+        </linearGradient>
+      </defs>
+      <rect width="800" height="1000" fill="#07060a"/>
+      <rect width="800" height="1000" fill="url(#glow1)"/>
+      <rect width="800" height="1000" fill="url(#glow2)"/>
+      <g stroke="#ffffff" stroke-opacity="0.08" stroke-width="1">
+        <circle cx="400" cy="500" r="120"/>
+        <circle cx="400" cy="500" r="220"/>
+        <circle cx="400" cy="500" r="320"/>
+        <circle cx="400" cy="500" r="420"/>
+      </g>
+      <g opacity="0.9">
+        <circle cx="400" cy="430" r="150" fill="none" stroke="#1a1820" stroke-width="26"/>
+        <circle cx="400" cy="430" r="150" fill="none" stroke="#ff1f8f" stroke-width="3" stroke-dasharray="4 10"/>
+        <circle cx="400" cy="430" r="38" fill="#0d0c10" stroke="#00e5ff" stroke-width="2"/>
+        <circle cx="400" cy="430" r="6" fill="#00e5ff"/>
+        <rect x="392" y="270" width="16" height="70" rx="4" fill="#ff1f8f"/>
+      </g>
+      <rect width="800" height="1000" fill="url(#fade)"/>
+    </svg>
+  </div>
+
+  <div class="topbar">
+    <a href="#top" class="topbar-mark">IKY VICKY</a>
+    <button type="button" class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navTabs">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="topbar-tabs" id="navTabs" aria-label="Section">
+      <a href="#bio">Bio</a>
+      <a href="#listen">Listen</a>
+      <a href="#shows">Shows</a>
+      <a href="#book" class="tab-cta">Book</a>
+    </nav>
+  </div>
+
+  <div class="hero-content">
+    <p class="eyebrow">Tech House · DJ / Producer</p>
+    <h1 class="stamp">IKY VICKY</h1>
+    <p class="handle">@ikyvickymusic</p>
+    <a href="#listen" class="scroll-cue">Listen ↓</a>
+  </div>
+</header>
+
+<main class="page">
+
+  <section class="block" id="bio" aria-labelledby="bio-h">
+    <h2 class="label-row" id="bio-h">Bio</h2>
+    <p class="bio-text">Tech house DJ/producer.</p>
+    <p class="note">Placeholder copy — full bio, photos, and brand assets go here once IKY VICKY sends them over.</p>
+  </section>
+
+  <section class="block" id="listen" aria-labelledby="listen-h">
+    <h2 class="label-row" id="listen-h">Listen</h2>
+    <div class="player-card">
+      <div class="player-face">
+        <div class="waveform" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <p class="player-label">SoundCloud player — coming soon</p>
+      </div>
+      <p class="note">Placeholder — the real SoundCloud embed drops in here once a track link is confirmed.</p>
+    </div>
+  </section>
+
+  <section class="block" id="shows" aria-labelledby="shows-h">
+    <h2 class="label-row" id="shows-h">Shows</h2>
+    <div class="shows-card">
+      <p class="shows-status">Dates coming soon</p>
+      <p class="note">Tour and local dates will be listed here as they're booked.</p>
+    </div>
+  </section>
+
+  <section class="block book-block" id="book" aria-labelledby="book-h">
+    <h2 class="label-row" id="book-h">Book Me</h2>
+    <p class="note" style="margin-bottom:18px;">For bookings, press, and collabs — reach out on Instagram.</p>
+    <a class="book-btn" href="https://instagram.com/ikyvickymusic" target="_blank" rel="noopener">Book Me on Instagram</a>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="rule" aria-hidden="true"></div>
+  <p class="social"><a href="https://instagram.com/ikyvickymusic" target="_blank" rel="noopener">@ikyvickymusic — Instagram</a></p>
+  <p class="filed">Sample preview — content and links are placeholders pending final assets from the artist.</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
